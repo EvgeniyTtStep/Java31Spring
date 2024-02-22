@@ -5,36 +5,36 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean class="org.example.car.NissanCar" id="nissanCar">   <!--NissanCar-->
-        <property name="idNissan" value="2"/> <!--setIdNissan-->
-        <property name="country" value="Japan"/>
-        <property name="name" value="sunny"/>
-        <property name="weight" value="2000"/>
-        <property name="map">
-            <map>
-                <entry key="map1" value="111"/>
-                <entry key="map2" value="222"/>
-            </map>
-        </property>
-    </bean>
+<!--    <bean class="org.example.car.model.NissanCar" id="nissanCar">   &lt;!&ndash;NissanCar&ndash;&gt;-->
+<!--        <property name="idNissan" value="2"/> &lt;!&ndash;setIdNissan&ndash;&gt;-->
+<!--        <property name="country" value="Japan"/>-->
+<!--        <property name="name" value="sunny"/>-->
+<!--        <property name="weight" value="2000"/>-->
+<!--        <property name="map">-->
+<!--            <map>-->
+<!--                <entry key="map1" value="111"/>-->
+<!--                <entry key="map2" value="222"/>-->
+<!--            </map>-->
+<!--        </property>-->
+<!--    </bean>-->
 
-    <bean class="org.example.car.MercedesCar" id="mercedesCar">
-        <constructor-arg name="idCar" value="2"/>
-        <constructor-arg name="vendor" value="mercedes"/>
-        <constructor-arg name="model" value="s500"/>
-        <constructor-arg name="color" value="gray"/>
-        <constructor-arg name="complectation">
-            <list>
-                <value>airbag</value>
-                <value>cameras</value>
-                <value>autopilot</value>
-            </list>
-        </constructor-arg>
-    </bean>
+<!--    <bean class="org.example.car.model.MercedesCar" id="mercedesCar">-->
+<!--        <constructor-arg name="idCar" value="2"/>-->
+<!--        <constructor-arg name="vendor" value="mercedes"/>-->
+<!--        <constructor-arg name="model" value="s500"/>-->
+<!--        <constructor-arg name="color" value="gray"/>-->
+<!--        <constructor-arg name="complectation">-->
+<!--            <list>-->
+<!--                <value>airbag</value>-->
+<!--                <value>cameras</value>-->
+<!--                <value>autopilot</value>-->
+<!--            </list>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
 
 
-    <bean class="org.example.car.CarFabric" id="carFabric">
-        <property name="car" ref="mercedesCar"/>
-    </bean>
+<!--    <bean class="org.example.car.fabric.CarFabric" id="carFabric">-->
+<!--        <property name="car" ref="mercedesCar"/>-->
+<!--    </bean>-->
 
 </beans>

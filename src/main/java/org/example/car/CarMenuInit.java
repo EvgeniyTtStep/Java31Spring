@@ -1,5 +1,10 @@
 package org.example.car;
 
+import org.example.car.fabric.CarFabric;
+import org.example.car.model.Car;
+import org.example.car.model.MercedesCar;
+import org.example.car.model.NissanCar;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

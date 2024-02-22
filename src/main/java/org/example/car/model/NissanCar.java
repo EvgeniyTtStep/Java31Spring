@@ -1,7 +1,10 @@
-package org.example.car;
+package org.example.car.model;
+
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
+@Component
 public class NissanCar implements Car {
 
     private Integer idNissan;

@@ -8,4 +8,13 @@ public class FabricStudentImpl implements FabricStudent {
     public void createStudent() {
         System.out.println(student.study());
     }
+
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
 }

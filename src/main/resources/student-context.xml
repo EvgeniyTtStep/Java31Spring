@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean class="org.example.student.JavaStudent" id="javaStudent">-->
+<!--        <property name="idJava" value="1"/>-->
+<!--        <property name="name" value="Jack"/>-->
+<!--        <property name="email" value="jack@mail.com"/>-->
+<!--        <property name="skills">-->
+<!--            <set>-->
+<!--                <value>spring</value>-->
+<!--                <value>maven</value>-->
+<!--                <value>mySQL</value>-->
+<!--                <value>HTML</value>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean class="org.example.student.FabricStudentImpl" id="fabricStudent">-->
+<!--        <property name="student" ref="javaStudent"/>-->
+<!--    </bean>-->
+
+</beans>
